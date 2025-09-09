@@ -4,174 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
     <title>鄭竹淇 — 履歷</title>
-    <style>
-        :root {
-            --accent: #8B4513;
-            /* 棕色主色 */
-            --muted: #5C4033;
-            /* 深棕色文字 */
-            --bg: #F5F5DC;
-            /* 米色背景 */
-            --card: #FFF8F0;
-            /* 卡片淺棕 */
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Noto Sans TC, Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
-        }
 
-        html,
-        body {
-            height: 100%;
-            background: var(--bg);
-            margin: 0;
-            padding: 24px
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto
-        }
-
-        .card {
-            background: var(--card);
-            border-radius: 12px;
-            padding: 28px;
-            box-shadow: 0 6px 18px rgba(92, 64, 51, 0.15)
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 20px
-        }
-
-        .name {
-            font-size: 28px;
-            font-weight: 700;
-            margin: 0;
-            color: var(--accent)
-        }
-
-        .subtitle {
-            color: var(--muted);
-            margin-top: 6px
-        }
-
-        .tagline {
-            margin-top: 12px;
-            padding: 14px;
-            background: linear-gradient(90deg, rgba(139, 69, 19, 0.08), rgba(139, 69, 19, 0.03));
-            border-radius: 8px;
-            color: #4B2E2E
-        }
-
-        section {
-            margin-top: 22px
-        }
-
-        h2 {
-            font-size: 16px;
-            margin: 0 0 10px 0;
-            color: var(--accent)
-        }
-
-        p,
-        li {
-            color: #3E2723;
-            line-height: 1.6
-        }
-
-        .two-col {
-            display: grid;
-            grid-template-columns: 1fr 340px;
-            gap: 24px
-        }
-
-        .left {
-            min-width: 0
-        }
-
-        .overview {
-            background: #FAF3E0;
-            padding: 14px;
-            border-radius: 8px
-        }
-
-        .meta {
-            color: var(--muted);
-            font-size: 14px
-        }
-
-        ul.plain {
-            list-style: none;
-            padding: 0;
-            margin: 0
-        }
-
-        .edu,
-        .exp {
-            display: flex;
-            flex-direction: column;
-            gap: 12px
-        }
-
-        .item {
-            background: #FFF;
-            border: 1px solid #E0C9A6;
-            padding: 12px;
-            border-radius: 8px
-        }
-
-        .item .title {
-            font-weight: 600;
-            color: var(--accent)
-        }
-
-        .item .meta {
-            font-size: 13px;
-            color: var(--muted);
-            margin-top: 6px
-        }
-
-        .chips {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-top: 10px
-        }
-
-        .chip {
-            background: #EEDFCC;
-            padding: 6px 10px;
-            border-radius: 999px;
-            font-size: 13px;
-            color: var(--accent)
-        }
-
-        footer {
-            margin-top: 20px;
-            color: var(--muted);
-            font-size: 13px
-        }
-
-        /* responsive */
-        @media (max-width:880px) {
-            .two-col {
-                grid-template-columns: 1fr;
-            }
-
-            .subtitle {
-                font-size: 14px
-            }
-
-            .name {
-                font-size: 22px
-            }
-        }
-    </style>
 </head>
 
+
+
 <body>
+
     <div class="container">
         <div class="card">
             <header>
@@ -179,7 +20,7 @@
                     <h1 class="name">鄭竹淇</h1>
                     <div class="tagline">【統計與資工跨領域背景，勇於嘗試挑戰】</div>
                     <div style="margin-top:14px;font-size:14px;color:var(--muted)">
-                        個性積極主動，勇於踏出舒適圈，自我要求高。具統計背景和程式撰寫能力，熟悉 Python、R，善用 Pandas、PyTorch
+                        個性積極主動，勇於踏出舒適圈，自我要求高。<br>具統計背景和程式撰寫能力，熟悉 Python、R，善用 Pandas、PyTorch
                         等大型數據分析工具，擁有資料收集與整理、數據分析與解釋、資料視覺化、跨部門溝通協作能力。
                     </div>
                 </div>
@@ -193,7 +34,7 @@
                         <div class="exp">
                             <div class="item">
                                 <div class="title">AI 暑期實習生 — 晶豪科技股份有限公司</div>
-                                <div class="meta">職務：AI 工程師（新竹市） • 2025/07 — 2025/08（2 個月）</div>
+                                <div class="detial"> 2025/07 — 2025/08（2 個月）</div>
                                 <ul class="plain" style="margin-top:8px">
                                     <li>數據收集、清理與標註</li>
                                     <li>AI 模型訓練、優化與串接</li>
@@ -202,7 +43,7 @@
 
                             <div class="item">
                                 <div class="title">暑期生 — 中央研究院 統計科學研究所</div>
-                                <div class="meta">職務：AI 工程師（台北市南港區） • 2024/07 — 2024/08（2 個月）</div>
+                                <div class="detial"> 2024/07 — 2024/08（2 個月）</div>
                                 <ul class="plain" style="margin-top:8px">
                                     <li>基於 PyTorch 框架設計與實作時間序列預測模型</li>
                                 </ul>
@@ -210,7 +51,7 @@
 
                             <div class="item">
                                 <div class="title">課輔老師 / 助教 — 清華大學</div>
-                                <div class="meta">職務：助教（新竹市） • 2024/02 — 仍在職</div>
+                                <div class="detial"> 2024/02 — 仍在職</div>
                                 <ul class="plain" style="margin-top:8px">
                                     <li>協助同學課業學習、教材轉檔、協助公文寄送與行政庶務處理</li>
                                     <li>於 2025 年獲得清華大學的優良課輔員</li>
@@ -228,12 +69,12 @@
                         <div class="edu">
                             <div class="item">
                                 <div class="title">國立清華大學 — 計算與建模科學研究所 </div>
-                                <div class="meta">2024/09 — 碩士就讀中</div>
+                                <div class="detial">2024/09 — 碩士就讀中</div>
                             </div>
 
                             <div class="item">
                                 <div class="title">國立清華大學 — 理學院不分系（大學畢業）</div>
-                                <div class="meta">2020/09 — 2024/06</div>
+                                <div class="detial">2020/09 — 2024/06</div>
                             </div>
                         </div>
                     </section>
@@ -249,56 +90,82 @@
                             <div class="chip">模型訓練與優化</div>
                             <div class="chip">跨部門溝通</div>
                         </div>
-
-                        <div style="margin-top:12px">
-                            <h2>證照</h2>
-                            <p class="meta">Society of Actuaries (美國精算師協會) Exam P：Probability</p>
-                        </div>
                     </section>
 
                 </aside>
             </div>
-
+            <section>
+                <h2>證照</h2>
+                <p class="meta">Society of Actuaries (美國精算師協會) Exam P：Probability</p>
+            </section>
             <section>
                 <h2>個人專案</h2>
                 <div class="edu">
                     <div class="item">
                         <div class="title">Conditional GAN</div>
-                        <div class="meta">
-                            <p>使用 Multi-Branch Conditional GAN 生成 Fashion MNIST 圖片，達到 KID Score 0.0100。</p>
-                            <p><strong>模型架構與技術亮點：</strong></p>
-                            <ul class="plain" style="margin-top:6px">
-                                <li>Multi-Branch Conditional Generator：將標籤經 Embedding 層轉換後與噪聲拼接，進入全連接層展開。</li>
-                                <li>類別分支 (Class Branches)：根據輸入標籤將影像特徵送入對應生成分支，確保類別獨立生成。</li>
-                                <li>使用 Conv2DTranspose 與 BatchNormalization 放大影像，穩定訓練。</li>
-                            </ul>
-                            <p><a href="#">展開更多</a></p>
+                        <p>使用 Multi-Branch Conditional GAN 生成 Fashion MNIST 圖片，達到 KID Score 0.0100。</p>
+                        <div class="project">
+                            <img src="images/model_arch.jpg" alt="model_arch">
+                            <div class="project-text">
+                                <p><strong>模型架構與技術亮點：</strong></p>
+                                <ul class="plain" style="margin-top:6px">
+                                    <li>Multi-Branch Conditional Generator：<br>將標籤經 Embedding 層轉換後與噪聲拼接，進入全連接層展開。</li>
+                                    <li>類別分支 (Class Branches)：<br>根據輸入標籤將影像特徵送入對應生成分支，確保類別獨立生成。</li>
+                                    <li>使用 Conv2DTranspose 與 BatchNormalization 放大影像，穩定訓練。</li>
+                                </ul>
+                                <a class="btn-link" href="https://github.com/gigi-igig/Fashion-MNIST-gan"
+                                    target="_blank"> 展開更多... 前往 GitHub 專案 </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="item">
                         <div class="title">AI Web Chatbot</div>
-                        <div class="meta">
-                            <p><strong>專案目標：</strong></p>
-                            <ul class="plain" style="margin-top:6px">
-                                <li>建立對話系統，管理 Session 與訊息資料。</li>
-                                <li>提供簡易 WebUI 操作介面，方便使用者互動。</li>
-                            </ul>
-                            <p><strong>使用技術：</strong></p>
-                            <ul class="plain" style="margin-top:6px">
-                                <li>後端：FastAPI + SQLModel</li>
-                                <li>前端：HTML + JavaScript</li>
-                                <li>模型串接：Ollama API</li>
-                            </ul>
+                        <div class="project">
+                            <img src="images/chatbot.jpg" alt="chatbot">
+                            <div class="project-text">
+                                <p><strong>專案目標：</strong></p>
+                                <ul class="plain">
+                                    <li>建立對話系統，管理 Session 與訊息資料。</li>
+                                    <li>提供簡易 WebUI 操作介面，方便使用者互動。</li>
+                                </ul>
+                                <p><strong>使用技術：</strong></p>
+                                <ul class="plain">
+                                    <li>後端：FastAPI + SQLModel</li>
+                                    <li>前端：HTML + JavaScript</li>
+                                    <li>模型串接：Ollama API</li>
+                                </ul>
+                                <a class="btn-link"
+                                    href="https://www.canva.com/design/DAGnbDdebWE/iO-QTKmFSX8ioylnf1qOsg/view?utm_content=DAGnbDdebWE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd5886c1c6f#2"
+                                    target="_blank"> 展開更多... 前往專案簡報 </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="title">蛋雞友善飼養推廣</div>
+                        <div class="project">
+                            <img src="images/egg.jpg" alt="egg">
+                            <div class="project-text">
+                                <p><strong>專案目標：</strong></p>
+                                <p> 透過 AR 工具，讓民眾更了解台灣的蛋雞現狀</p>
+                                <p><strong>使用技術：</strong></p>
+                                <ul class="plain">
+                                    <li>blender的基礎建模工具完成素材</li>
+                                    <li>應用XR+與觀眾互動</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <footer>
-                <div>製作日期：2025/09/08</div>
-            </footer>
         </div>
     </div>
+    <footer class="floating-tail">
+        <span class="date">製作日期：2025/09/05</span>
+        <span class="contact">mail: gigicheng103@gmail.com | phone: 0983195429</span>
+    </footer>
 </body>
 
 </html>
